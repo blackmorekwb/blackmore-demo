@@ -18,3 +18,11 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+
+$(document).ready(function() {
+  // Hover ability on TABS
+  $('.nav-tabs > li > a').hover( function(){
+    $(this).tab('show');
+  });
+
+});

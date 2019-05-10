@@ -10,7 +10,6 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-// NOTE TODO added lines 15-17 jq3 / popper / sprockets; as per bootstrap docs
 //= require rails-ujs
 //= require jquery3
 //= require popper
@@ -18,11 +17,3 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
-
-$(document).ready(function() {
-  // Hover ability on TABS
-  $('.nav-tabs > li > a').hover( function(){
-    $(this).tab('show');
-  });
-
-});

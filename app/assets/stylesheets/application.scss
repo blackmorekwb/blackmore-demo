@@ -1,5 +1,6 @@
 /*
  * removed "require_tree ." && "require_self"
  * https://github.com/twbs/bootstrap-rubygem
+ * "Then, remove all the *= require and *= require_tree statements from the Sass file. Instead, use @import to import Sass files"
  */
 @import "bootstrap";

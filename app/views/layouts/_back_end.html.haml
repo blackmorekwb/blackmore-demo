@@ -3,8 +3,8 @@
     = image_tag('backend.png',size: '320x200')
   .col-md-8.text-right
     %h3 Back End
-    %p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    %button.btn.btn-primary{ 'data-toggle' => 'collapse', 'data-target' => '#back-end'} Read More
+    %p Front-end is the gateway, but back-end is the foundation. Without foundation the application wouldn't remain. From SQL to server provisioning and maintenance I provide stable development environments that are easily shared and distributed to an entire software team.
+    %button.btn.btn-primary{ 'data-toggle' => 'collapse', 'data-target' => '#back-end'} More
 #back-end.collapse.popout
   %div{role: 'tabpanel'}
     / Nav tabs / Hover is in app js
@@ -14,17 +14,12 @@
       %li{role: 'presentation'}
         = link_to image_tag('mysql.png', size: '80x80'),        '#tabs-2', 'aria-controls': 'mysql',    'data-toggle': 'tab', href: '#mysql',        role: 'tab'
       %li{role: 'presentation'}
-        = link_to image_tag('postgresql.png', size: '80x80'),   '#tabs-3', 'aria-controls': 'pg',       'data-toggle': 'tab', href: '#pg',           role: 'tab'
-      %li{role: 'presentation'}
         = link_to image_tag('commerce.png', size: '110x80'),    '#tabs-4', 'aria-controls': 'commerce', 'data-toggle': 'tab', href: '#commerce',     role: 'tab'
     / Tab panes
     .tab-content
       #database.tab-pane.fade.in.active{role: 'tabpanel'}
-        %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        %p Data has to be sorted and carefully attended to whilst keeping best security practices and PCI compliance. I provide database querying, data analysis, and encrypted data of personal information.
       #mysql.tab-pane.fade{role: 'tabpanel'}
-        %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      #pg.tab-pane.fade{role: 'tabpanel'}
-        %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        %p Upgrade from normal SQL to MySQL or PostgreSQL to provide a robust relational database. This allows for a stronger foundation and a more intricate application.
       #commerce.tab-pane.fade{role: 'tabpanel'}
-        %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        
+        %p Internet based financial transactions must be handled with care and security. In a growing market share, you too can have a robust e-commerce application.

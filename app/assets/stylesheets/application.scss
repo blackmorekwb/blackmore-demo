@@ -9,13 +9,19 @@
  width: 100%;
  height: 75px;
 }
+
+#main_content {
+  min-height: 75vh;
+
+  ul {
+    list-style-type: none;
+  }
+}
               /*  Container */
 .container{
-
   .row {
     margin-bottom: 50px;
   }
-
   .popout { //popout instead of collaps / naming issues with other collapse methods
     margin-bottom: 50px;
     min-height: 150px;
@@ -37,7 +43,6 @@
   }
 
   .slide-one-content {
-
       position: absolute;
       left: 20%;
       margin-top: 15%;
@@ -49,9 +54,13 @@
 }
               /*  Footer  */
 .navbar-fixed-bottom {
-
   .pull-right {
-
+    .nav-link{
+      color: rgba(255,255,255,0.5);
+      &:hover {
+        color: rgba(255,255,255,0.75);
+      }
+    }
     .fa {
       padding: 10px;
     }

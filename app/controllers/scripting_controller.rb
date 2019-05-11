@@ -1,0 +1,2 @@
+class ScriptingController < ApplicationController
+end

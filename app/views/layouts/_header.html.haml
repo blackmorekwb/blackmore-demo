@@ -1,7 +1,7 @@
 %nav#banner.navbar.navbar-expand-md.navbar-dark.bg-dark.fixed-top
   .container
     / Brand
-    %a.navbar-brand{:href => "#"}
+    %a.navbar-brand{:href => "/"}
       %span> Blackmore
     / Toggler/collapsibe Button
     %button.navbar-toggler{"data-target" => "#collapsibleNavbar", "data-toggle" => "collapse", :type => "button"}
@@ -10,20 +10,12 @@
     #collapsibleNavbar.collapse.navbar-collapse
       %ul.navbar-nav.ml-auto
         %li.nav-item
-          %a.nav-link{:href => "#"} HTML/JS
+          %a.nav-link{:href => "/"} Home
         %li.nav-item
-          %a.nav-link{:href => "#"} Rails
+          %a.nav-link{:href => "/html"} HTML/JS
         %li.nav-item
-          %a.nav-link{:href => "#"} SQL
+          %a.nav-link{:href => "/scripting"} Rails
         %li.nav-item
-          %a.nav-link{:href => "#"} C/Java
-        / Dropdown
-        %li.nav-item.dropdown
-          %a#navbardrop.nav-link.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
-            Dropdown link
-          .dropdown-menu
-            %a.dropdown-item{:href => "#"} HTML/JS
-            %a.dropdown-item{:href => "#"} Rails
-            %a.dropdown-item{:href => "#"} SQL
-            %a.dropdown-item{:href => "#"} C/Java
-            
+          %a.nav-link{:href => "/sql"} SQL
+        %li.nav-item
+          %a.nav-link{:href => "/objective"} C/Java

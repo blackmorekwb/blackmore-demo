@@ -1,0 +1,26 @@
+.jumbotron.center-text
+  %h3 SQL
+  %p In addition to everyday use of SQL in a web application |
+     there are backend uses and needs to query the database |
+     for administartor purposes. |
+
+.jumbotron
+  %h4.center-text Example:
+  %p I was tasked to find items in a commerce application |
+     that were outdated, and follow up with the authors/creators |
+     of said items. |
+  %br
+  %p Running combined queries I found all outdated items, and who posted them:
+  = link_to image_tag('sql_ex1.PNG')
+  %br
+  %p Now that I had a generated list of items and publishers, |
+     I used Ruby to iterate through the list to organize the data. |
+     Afterwards I set this to the mailer fucntions to email each publisher |
+     with their item(s) and information about updating their postings. |
+  = link_to image_tag('sql_ex1a.PNG')
+
+.jumbotron
+  %h4 PCI Compliance
+  %p Payment Card Industry and Data Security Standard: |
+     As a web application developer, I keep the applications secure |
+     to maintain PCI compliance. Protection of user data is my top priority. |
